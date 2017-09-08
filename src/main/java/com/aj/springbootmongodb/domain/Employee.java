@@ -44,11 +44,6 @@ public class Employee {
         this.salary = salary;
     }
 
-    public void update(String department, Integer salary) {
-        this.department = department;
-        this.salary = salary;
-    }
-
     @Override
     public String toString() {
         return "Employee{" +
